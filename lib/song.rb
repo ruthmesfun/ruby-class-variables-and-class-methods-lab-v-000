@@ -1,4 +1,3 @@
-require 'pry'
 class Song
   attr_accessor :name, :artist, :genre
   attr_reader :count
@@ -53,5 +52,3 @@ class Song
     @@artist_count
   end
 end
-
-binding.pry
